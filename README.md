@@ -1,5 +1,5 @@
 # Rust Graphics Crates
-This is an opinionated list of modern graphics crates in Rust. I noticed it was really hard to keep track of all the good graphics crates going around, so I made this to help me and others. 
+This is an opinionated list of modern graphics crates in Rust. I noticed it was really hard to keep track of all the good graphics crates going around, so I made this to help me and others. The categories are more based on grouping crates with similar levels of abstraction and less to do with the category name itself. I'm happy to take PRs, but I want to make sure all the crates on the list are actively maintained and has promise.
 
 ## Game Frameworks
 - [ggez](https://github.com/ggez/ggez)
