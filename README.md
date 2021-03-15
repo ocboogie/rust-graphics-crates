@@ -44,7 +44,7 @@ These crates provide a simple framebuffer.
 These will give you a lot of control over how rendering is done, but will take a lot more work/code than a higher-level crate
 - [wgpu](https://github.com/gfx-rs/wgpu) ![Crates.io (recent)](https://img.shields.io/crates/dr/wgpu)
   - **Backend**: gfx-hal
-- [gfx-hal](https://github.com/gfx-rs/gfx-hal) ![Crates.io (recent)](https://img.shields.io/crates/dr/gfx-hal)
+- [gfx-hal](https://github.com/gfx-rs/gfx) ![Crates.io (recent)](https://img.shields.io/crates/dr/gfx-hal)
   - **Backends**:
     - Vulkan
     - DirectX 12
