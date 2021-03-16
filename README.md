@@ -9,7 +9,9 @@ Although they consider themselves "game frameworks," they can, of coruse, be use
     - OpenGL ES2+ (works on Android as well as WebGL2)
     - Direct3D 11
 - [bevy](https://github.com/bevyengine/bevy) ![Crates.io (recent)](https://img.shields.io/crates/dr/bevy) 
-  - **Backend**: wgpu
+  - **Backends**:
+    - wgpu
+    - WebGL
 
 ## High-Level
 These should allow you to render something with relative ease. 
@@ -42,20 +44,28 @@ These crates provide a simple framebuffer.
 
 ## Low-Level
 These will give you a lot of control over how rendering is done, but will take a lot more work/code than a higher-level crate
-- [wgpu](https://github.com/gfx-rs/wgpu) ![Crates.io (recent)](https://img.shields.io/crates/dr/wgpu)
-  - **Backend**: gfx-hal + WebGL
+- [wgpu](https://github.com/gfx-rs/wgpu-rs) ![Crates.io (recent)](https://img.shields.io/crates/dr/wgpu)
+  - **Backends**:
+    - gfx-hal (including WebGL)
+    - WebGPU
 - [gfx-hal](https://github.com/gfx-rs/gfx) ![Crates.io (recent)](https://img.shields.io/crates/dr/gfx-hal)
   - **Backends**:
-    - Vulkan
-    - DirectX 12
-    - DirectX 11
-    - Metal
-    - OpenGL 3
-    - OpenGL ES 3
-    - WebGL
+    - Vulkan (via `ash`)
+    - Direct3D 12
+    - Direct3D 11
+    - Metal (via `metal`)
+    - OpenGL ES-3 (via `glow`)
+    - WebGL (via `glow`)
 - [vulkano](https://github.com/vulkano-rs/vulkano) ![Crates.io (recent)](https://img.shields.io/crates/dr/vulkano)
   - **Backend**: Vulkan
 - [rust-sdl2](https://github.com/Rust-SDL2/rust-sdl2) ![Crates.io (recent)](https://img.shields.io/crates/dr/sdl2)
   - **Backend**: SDL2
 - [ash](https://github.com/MaikKlein/ash) ![Crates.io (recent)](https://img.shields.io/crates/dr/ash)
   - **Backend**: Vulkan
+- [metal](https://github.com/gfx-rs/metal) ![Crates.io (recent)](https://img.shields.io/crates/dr/metal)
+  - **Backend**: Metal
+- [glow](https://github.com/grovesNL/glow) ![Crates.io (recent)](https://img.shields.io/crates/dr/glow)
+  - **Backends**:
+    - OpenGL
+    - OpenGL ES
+    - WebGL
