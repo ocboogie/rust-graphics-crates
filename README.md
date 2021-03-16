@@ -62,7 +62,7 @@ These will give you a lot of control over how rendering is done, but will take a
   - **Backend**: SDL2
 - [ash](https://github.com/MaikKlein/ash) ![Crates.io (recent)](https://img.shields.io/crates/dr/ash)
   - **Backend**: Vulkan
-- [metal](https://github.com/gfx-rs/metal) ![Crates.io (recent)](https://img.shields.io/crates/dr/metal)
+- [metal](https://github.com/gfx-rs/metal-rs) ![Crates.io (recent)](https://img.shields.io/crates/dr/metal)
   - **Backend**: Metal
 - [glow](https://github.com/grovesNL/glow) ![Crates.io (recent)](https://img.shields.io/crates/dr/glow)
   - **Backends**:
