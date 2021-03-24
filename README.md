@@ -43,6 +43,8 @@ These crates provide a simple framebuffer.
     - OpenGL 3
     - OpenGL ES 3
     - WebGL 1
+- [minifb](https://github.com/emoon/minifb) ![Crates.io (recent)](https://img.shields.io/crates/dr/minifb)
+  - **Custom Backend *Without* Hardware Acceleration**
 
 ## Low-Level
 These will give you a lot of control over how rendering is done, but will take a lot more work/code than a higher-level crate
