@@ -38,11 +38,6 @@ These should allow you to render something with relative ease.
 These crates provide a simple framebuffer.
 - [pixels](https://github.com/parasyte/pixels) ![Crates.io (recent)](https://img.shields.io/crates/dr/pixels)
   - **Backend**: wgpu
-- [miniquad](https://github.com/not-fl3/miniquad) ![Crates.io (recent)](https://img.shields.io/crates/dr/miniquad)
-  - **Custom Backend With Support For**:
-    - OpenGL 3
-    - OpenGL ES 3
-    - WebGL 1
 - [minifb](https://github.com/emoon/minifb) ![Crates.io (recent)](https://img.shields.io/crates/dr/minifb)
   - **Custom Backend *Without* Hardware Acceleration**
 
@@ -52,6 +47,11 @@ These will give you a lot of control over how rendering is done, but will take a
   - **Backends**:
     - gfx-hal (including WebGL)
     - WebGPU
+- [miniquad](https://github.com/not-fl3/miniquad) ![Crates.io (recent)](https://img.shields.io/crates/dr/miniquad)
+  - **Custom Backend With Support For**:
+    - OpenGL 3
+    - OpenGL ES 3
+    - WebGL 1
 - [gfx-hal](https://github.com/gfx-rs/gfx) ![Crates.io (recent)](https://img.shields.io/crates/dr/gfx-hal)
   - **Backends**:
     - Vulkan (via `ash`)
