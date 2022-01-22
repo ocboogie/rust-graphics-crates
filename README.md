@@ -36,10 +36,12 @@ These should allow you to render something with relative ease.
 
 ## Simple
 These crates provide a simple framebuffer.
+- [softbuffer](https://github.com/john01dav/softbuffer) ![Crates.io (recent)](https://img.shields.io/crates/dr/softbuffer)
+  - **Put a user-created 2D buffer on a window without relying on GPU infrastructure (like minifb but integrates with raw-window-handle to work with winit and other standard window management libraries)**
 - [pixels](https://github.com/parasyte/pixels) ![Crates.io (recent)](https://img.shields.io/crates/dr/pixels)
   - **Backend**: wgpu
 - [minifb](https://github.com/emoon/minifb) ![Crates.io (recent)](https://img.shields.io/crates/dr/minifb)
-  - **Custom Backend *Without* Hardware Acceleration**
+  - **Put a user-created 2D buffer on a window without relying on GPU infrastructure (does own window managemetn)**
 
 ## Low-Level
 These will give you a lot of control over how rendering is done, but will take a lot more work/code than a higher-level crate
