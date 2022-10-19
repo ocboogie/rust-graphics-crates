@@ -41,7 +41,7 @@ These crates provide a simple framebuffer.
 - [pixels](https://github.com/parasyte/pixels) ![Crates.io (recent)](https://img.shields.io/crates/dr/pixels)
   - **Backend**: wgpu
 - [minifb](https://github.com/emoon/minifb) ![Crates.io (recent)](https://img.shields.io/crates/dr/minifb)
-  - **Put a user-created 2D buffer on a window without relying on GPU infrastructure (does own window managemetn)**
+  - **Put a user-created 2D buffer on a window without relying on GPU infrastructure (does own window management)**
 
 ## Low-Level
 These will give you a lot of control over how rendering is done, but will take a lot more work/code than a higher-level crate
