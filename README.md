@@ -1,5 +1,5 @@
 # Rust Graphics Crates
-This is an opinionated list of modern graphics crates in Rust. I noticed it was really hard to keep track of all the good graphics crates going around, so I made this to help me and others. The categories are more based on grouping crates with similar levels of abstraction and less to do with the category name itself. I'm happy to take PRs, but I want to make sure all the crates on the list are actively maintained and has promise.
+This is an opinionated list of modern graphics crates in Rust. I noticed it was really hard to keep track of all the good graphics crates going around, so I made this to help me and others. The categories are more based on grouping crates with similar levels of abstraction and less to do with the category name itself. I'm happy to take PRs, but I want to make sure all the crates on the list are actively maintained and have promise.
 
 Although a bit outdated, [icefoxen](https://github.com/icefoxen), author of ggez, wrote a great article about the current state of graphics crates back in May of 2019. A lot of what's said is still applicable today and can be found [here]( https://wiki.alopex.li/AGuideToRustGraphicsLibraries2019).
 
